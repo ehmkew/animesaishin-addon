@@ -18,7 +18,7 @@ function formatTimeAgo(timestamp) {
 const builder = new addonBuilder({
   id: 'org.masonqian.animesaishin',
   version: '1.0.1',
-  name: 'AnimeSaishin Test',
+  name: 'AnimeSaishin',
   description: 'Discover the most recently aired anime episodes in real time.',
   resources: ['catalog'],
   types: ['series'],
@@ -26,7 +26,7 @@ const builder = new addonBuilder({
     {
       type: 'series',
       id: 'latest_anime',
-      name: 'AnimeSaishin Test - Latest Airing',
+      name: 'AnimeSaishin - Recently Released',
       extraSupported: ['skip'],
     },
   ],
